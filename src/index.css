@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo SAO - neon */
+body { @apply bg-gradient-to-b from-sao-dark via-gray-900 to-black text-gray-100; }
+
+.neon-glow {
+  box-shadow: 0 8px 40px rgba(0,179,255,0.12), 0 0 12px rgba(125,249,255,0.04);
+  border: 1px solid rgba(125,249,255,0.08);
+}
